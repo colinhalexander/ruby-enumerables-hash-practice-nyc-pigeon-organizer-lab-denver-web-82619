@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
             gender: []
             lives: []
           }
-          memo[name]
+          #memo[name]
         end
         
         count += 1
