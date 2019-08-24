@@ -8,8 +8,8 @@ def nyc_pigeon_organizer(data)
         name = inner_value[count]
         if (!memo[name])
           memo[name] = {
-            color: []
-            gender: []
+            color: [],
+            gender: [],
             lives: []
           }
           #memo[name]
