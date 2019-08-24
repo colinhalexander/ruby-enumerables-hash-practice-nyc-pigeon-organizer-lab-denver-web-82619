@@ -14,10 +14,12 @@ def nyc_pigeon_organizer(data)
           }
           #memo[name]
         end
-        
+        p memo
         count += 1
       end
+      
     end
+    memo
   end
   p final_pigeon_data
 end
