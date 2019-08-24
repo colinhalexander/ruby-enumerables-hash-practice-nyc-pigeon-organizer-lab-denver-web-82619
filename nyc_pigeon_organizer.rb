@@ -5,8 +5,8 @@ def nyc_pigeon_organizer(data)
       
       count = 0
       while count < inner_value.length do
-        name = memo[inner_value[count]]
-        if (!name)
+        name = inner_value[count]
+        if (!memo[inner_value[count]])
           memo[inner_value[count]] = {
             color: []
             gender: []
