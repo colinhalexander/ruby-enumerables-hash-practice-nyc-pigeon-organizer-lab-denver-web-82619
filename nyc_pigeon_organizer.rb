@@ -12,9 +12,8 @@ def nyc_pigeon_organizer(data)
             gender: [],
             lives: []
           }
-          memo[name][key].push(inner_key.to_s)
         end
-        
+        memo[name][key].push(inner_key.to_s)
         count += 1
       end
       
